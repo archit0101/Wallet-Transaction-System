@@ -1,0 +1,9 @@
+{%extends 'Base.html' %}
+
+{% block content %}
+<h1> Transaction History </h1><br>
+{% for trans in transaction%}
+  <h2>  {{trans.username}} &emsp; {{trans.Transaction_Type}} &emsp; {{trans.amount}}</h2> <br>
+{% endfor %}
+
+{% endblock %}
