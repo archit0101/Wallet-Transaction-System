@@ -25,7 +25,7 @@
        A transaction log will be maintained for each user that is stored as one big table in database and will tell uss the type of transaction `Credit/Debit` and the `Amount` credited or debited
        
      
-  ![Screenshot from 2021-05-12 19-20-08](https://github.com/archit0101/Wallet-Transaction-System/blob/main/screenshots/wallet.png)
+  ![Screenshot from 2021-05-12 19-20-08](https://github.com/archit0101/Wallet-Transaction-System/blob/main/screenshots/Transaction_History.png)
   
 ## Assumptions
 ### 1) Database Connectivity
