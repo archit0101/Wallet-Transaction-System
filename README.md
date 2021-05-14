@@ -10,22 +10,22 @@
 ### 1) `Signup` and `Login`
        As soon as we hit the server, we see the page for `Sign-In` or `Register`. If already account exists then user can Login directly else the page will ask to signup first.
        After successfull Register, an account will be created for the user with default $100 balance.
-  ![Screenshot from 2021-05-12 19-18-11](https://github.com/archit0101/E-Wallet/blob/main/screenshots/Login.png)
+  ![Screenshot from 2021-05-12 19-18-11](https://github.com/archit0101/Wallet-Transaction-System/blob/main/screenshots/Login.png)
    
-   ![Screenshot from 2021-05-12 19-18-11](https://github.com/archit0101/E-Wallet/blob/main/screenshots/Register.png)
+   ![Screenshot from 2021-05-12 19-18-11](https://github.com/archit0101/Wallet-Transaction-System/blob/main/screenshots/Register.png)
 
 ### 2) `Credit` and `Debit`  and `minimum balance`
        `Debit`: You need to give the username and the amount that needs to be sent money to. The username should Exist else will shoot an error of `username not found`. Also in case your balance would fall below minimum balance($100) then the Debit operation will not occur and will give u a `warning to maintain minimum balance`.
        `Credit`: You need to Give the amount to be Credited.
        
-  ![Screenshot from 2021-05-12 19-19-01](https://github.com/archit0101/E-Wallet/blob/main/screenshots/wallet.png)
+  ![Screenshot from 2021-05-12 19-19-01](https://github.com/archit0101/Wallet-Transaction-System/blob/main/screenshots/wallet.png)
 
    
 ### 3) `Transaction Log`
        A transaction log will be maintained for each user that is stored as one big table in database and will tell uss the type of transaction `Credit/Debit` and the `Amount` credited or debited
        
      
-  ![Screenshot from 2021-05-12 19-20-08](https://github.com/archit0101/E-Wallet/blob/main/screenshots/wallet.png)
+  ![Screenshot from 2021-05-12 19-20-08](https://github.com/archit0101/Wallet-Transaction-System/blob/main/screenshots/wallet.png)
   
 ## Assumptions
 ### 1) Database Connectivity
